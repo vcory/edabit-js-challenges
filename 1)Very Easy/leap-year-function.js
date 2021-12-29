@@ -7,3 +7,5 @@ function leapYear(year) {
 		return false;
 	}
 }
+
+//First of the Edabit challenges not completed in VS Code
