@@ -1,0 +1,7 @@
+function isPrefix(word, prefix) {
+	return word.indexOf(prefix.split('-')[0]) === 0
+}
+
+function isSuffix(word, suffix) {
+	return word.indexOf(suffix.split('-')[1]) > 0
+}
